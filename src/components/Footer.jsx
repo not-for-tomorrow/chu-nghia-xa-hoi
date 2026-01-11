@@ -31,14 +31,14 @@ export const Footer = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-yellow-400">
-                  Tư Tưởng Hồ Chí Minh
+                  Chủ nghĩa Mác - Lênin
                 </h3>
-                <span className="text-xs text-yellow-200/70">Học tập và làm theo gương Bác</span>
+                <span className="text-xs text-yellow-200/70">CNXH & Thời kỳ quá độ</span>
               </div>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-6">
-              Dự án số hóa và phổ biến tư tưởng Hồ Chí Minh đến với thế hệ trẻ 
+              Dự án số hóa và phổ biến Chủ nghĩa Mác - Lênin đến với thế hệ trẻ 
               thông qua công nghệ 3D hiện đại, giúp việc học tập trở nên sinh động và hấp dẫn hơn.
             </p>
 
@@ -81,10 +81,10 @@ export const Footer = () => {
                 title: "Nội dung",
                 links: ["Sổ tay 3D", "Bookmark", "Tài liệu", "Video"]
               },
-              {
-                title: "Tư tưởng",
-                links: ["Tiểu sử Bác", "Các bài viết", "Di chúc", "Câu nói"]
-              },
+              // {
+              //   title: "Tư tưởng",
+              //   links: ["Tiểu sử Bác", "Các bài viết", "Di chúc", "Câu nói"]
+              // },
               {
                 title: "Học tập",
                 links: ["Hướng dẫn", "Bài giảng", "Câu hỏi", "Thảo luận"]
@@ -119,7 +119,7 @@ export const Footer = () => {
               <svg viewBox="0 0 24 24" className="w-4 h-4 text-yellow-500" fill="currentColor">
                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
               </svg>
-              <span>© {year} Tư Tưởng Hồ Chí Minh. Dự án phi lợi nhuận.</span>
+              <span>© {year} Chủ nghĩa Mác - Lênin. Dự án phi lợi nhuận.</span>
             </div>
             
             <div className="flex items-center gap-6 text-sm">

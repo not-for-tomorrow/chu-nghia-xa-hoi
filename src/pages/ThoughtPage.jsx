@@ -1,44 +1,55 @@
-import { HeroSection, ContextSection, ReturnHomeSection } from "../components2/HeroAndContext";
-import { VietMinhSection, TrainingSection, LiberationArmySection } from "../components2/PreparationSections";
-import { TimelineSection } from "../components2/TimelineSection";
-import { FamineSection, AugustRevolutionSection } from "../components2/RevolutionSections";
+import { HeroSection, PartOneHeader, ConceptSection } from "../components2/HeroAndContext";
+import { StagesSection, ConditionsSection, CharacteristicsSection } from "../components2/PreparationSections";
+import { PartTwoHeader, TransitionViewsSection, TransitionTypesSection } from "../components2/RevolutionSections";
+import { TransitionDetailsSection } from "../components2/TimelineSection";
+import { ConclusionSection, ThankYouSection } from "../components2/ConclusionSection";
 import Footer from "../components/Footer";
 
 const ThoughtPage = () => (
   <div className="min-h-screen bg-slate-50">
-    {/* Phần 1: Giới thiệu & Bối cảnh */}
-    <section id="overview">
+    
+    {/* ===== NGƯỜI 1: MỞ ĐẦU + MỤC 1, 2 ===== */}
+    
+    {/* 1. Mở đầu */}
+    <div id="overview">
       <HeroSection />
-    </section>
-    <section id="context">
-      <ContextSection />
-    </section>
+    </div>
 
-     {/* Phần 2: Timeline dọc các mốc sự kiện */}
-    <section id="timeline">
-      <TimelineSection />
-    </section>
-    <section id="return-home">
-      <ReturnHomeSection />
-    </section>
+    {/* Header Phần I + Khái niệm + Hình thái */}
+    <div id="part-one">
+      <PartOneHeader />
+      <ConceptSection />
+      <StagesSection />
+    </div>
+
+    {/* ===== NGƯỜI 2: MỤC 3, 4 ===== */}
     
-    {/* Phần 3: Chuẩn bị lực lượng */}
-    <section id="preparation">
-      <VietMinhSection />
-      <TrainingSection />
-      <LiberationArmySection />
-    </section>
+    {/* Điều kiện + Đặc trưng */}
+    <div id="conditions">
+      <ConditionsSection />
+      <CharacteristicsSection />
+    </div>
+
+    {/* ===== NGƯỜI 3: PHẦN II ===== */}
+
+    {/* Header Phần II + Quan điểm + Loại hình */}
+    <div id="part-two">
+      <PartTwoHeader />
+      <TransitionViewsSection />
+      <TransitionTypesSection />
+    </div>
+
+    {/* Đặc điểm 4 lĩnh vực */}
+    <div id="features">
+      <TransitionDetailsSection />
+    </div>
+
+    {/* Kết luận & Cảm ơn */}
+    <div id="conclusion">
+      <ConclusionSection />
+      <ThankYouSection />
+    </div>
     
-    
-    {/* Phần 4: Nạn đói & Cách mạng */}
-    <section id="famine">
-      <FamineSection />
-    </section>
-    <section id="august-revolution">
-      <AugustRevolutionSection />
-    </section>
-    
-    {/* Footer */}
     <Footer />
   </div>
 );
