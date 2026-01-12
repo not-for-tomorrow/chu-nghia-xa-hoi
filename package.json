@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://not-for-tomorrow.github.io/Chu-Nghia-Xa-Hoi/",
+  "homepage": "https://not-for-tomorrow.github.io/chu-nghia-xa-hoi/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
